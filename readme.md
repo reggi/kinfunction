@@ -18,6 +18,8 @@ kinfunction(require, args, function, callback);
 
 Here's an example of one function (`thefifthofnovember`) running twice and logging different a `process.pid` both times it runs. Because the child process doesn't have any access to the globals in this file we pass `"moment":"moment"` which will `require("moment")` to the variable `moment`. We also pass in the same arguments that the function takes. 
 
+[Here's a repo with this example in it.](https://github.com/reggi/play-kinfunction)
+
 ```
 var moment = require("moment");
 var kinfunction = require("kinfunction")
