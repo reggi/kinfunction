@@ -1,0 +1,25 @@
+{
+  "name": "kinfunction",
+  "version": "1.0.0",
+  "description": "Run a function as a child process.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reggi/kinfunction.git"
+  },
+  "keywords": [
+    "child",
+    "process",
+    "function",
+    "exec"
+  ],
+  "author": "Thomas Reggi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reggi/kinfunction/issues"
+  },
+  "homepage": "https://github.com/reggi/kinfunction"
+}
